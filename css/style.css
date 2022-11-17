@@ -296,7 +296,7 @@
 .services__item-name {
     margin: 0;
     margin-bottom: 13px;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     font-weight: 600;
     font-size: 24.0692px;
     line-height: 24px;
@@ -354,7 +354,7 @@
 .feature__header {
     margin: 0 auto;
     margin-bottom: 28px;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 1.2;
@@ -369,7 +369,7 @@
     max-width: 537px;
     margin: 0 auto;
     margin-bottom: 34.5px;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -392,7 +392,7 @@
 }
 
 .feature__filters-item {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 24px;
@@ -500,7 +500,7 @@
 }
 
 .team__lead-name {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 30.127px;
     height: 23px;
@@ -534,7 +534,7 @@
 }
 
 .team__lead-link {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-size: 18px;
     line-height: 24px;
@@ -571,7 +571,7 @@
     bottom: 0;
     z-index: 1;
     left: 0;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -603,7 +603,7 @@
 }
 
 .subscribe__heading {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     font-weight: 800;
     font-size: 42px;
@@ -616,7 +616,7 @@
 }
 
 .subscribe__about {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -626,7 +626,7 @@
 }
 
 .subscribe__heading {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 42px;
     line-height: 1;
@@ -823,6 +823,10 @@
     font-weight: 600;
 }
 
+.feedback__button:hover{
+    background-color: rgb(179, 19, 19);
+}
+
 .feedback__contacts {
     width: 315px;
     background-color: rgb(45, 45, 45);
@@ -865,4 +869,10 @@
     line-height: 28px;
     font-weight: 400;
     color: rgb(255, 255, 255);
+}
+
+.contacts__mail:hover,
+.contacts__phone:hover
+ {
+    color: rgb(172, 176, 255);
 }
