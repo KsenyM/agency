@@ -12,7 +12,7 @@
 </head>
 
 <body class="page">
-    <div class="page-inner page-inner-gray">
+    <div class="page__inner page__inner_gray">
         <header class="header page-header">
             <nav class="site-menu">
                 <ul class="site-menu__list">
@@ -23,7 +23,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="page-inner page-inner-intro page-inner-gray">
+        <section class="page__inner page__inner-intro page__inner-gray">
             <div class="intro__info">
                 <h2 class="intro__heading">Our strong <span class="intro__span intro__span_special">organisation</span>
                 </h2>
@@ -127,7 +127,7 @@
                 </ul>
             </div>
 
-            <section class="team__others">
+            <div class="team__others">
                 <div class="team__other"><img class="team__other-photo" src="Img/2.jpg" height="217" width="198"
                         alt="Photo Sokina Jue"><span class="team__other-name">Sokina Jue</span></div>
                 <div class="team__other"><img class="team__other-photo" src="Img/3.jpg" height="217" width="198"
@@ -136,6 +136,45 @@
                         alt="Photo Chi Huahua"><span class="team__other-name">Chi Huahua</span></div>
                 <div class="team__other"><img class="team__other-photo" src="Img/5.jpg" height="217" width="198"
                         alt="Photo Dober Mann"><span class="team__other-name">Dober Mann</span></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="page__inner page__inner_dark">
+        <section class="subscribe">
+            <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
+            <p class="subscribe__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+            <form class="subscribe__form" method="get">
+                <input class="subscribe__input" type="email" name="email" id="email" placeholder="Email address...">
+                <button class="subscribe__btn" type="submit">subscribe</button>
+            </form>
+        </section>
+    </div>
+
+    <section class="feedback">
+        <div class="feedback__header">
+            <h2 class="feedback__heading" id="touch">Get in touch</h2>
+            <p class="feedback__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
+                incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis
+                cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            <hr class="feedback__line">
+        </div>
+        <div class="feedback__body">
+            <form class="feedback__form" method="get">
+                <div class="feedback_1line">
+                    <input class="feedback__name" type="text" placeholder="Name" name="Name">
+                    <input class="feedback__email" type="email" placeholder="Your Mail" name="Email">
+                </div>
+                <textarea class="feedback__textarea" name="text" placeholder="Type your message" id="text" cols="30"
+                    rows="10"></textarea>
+                <button class="feedback__button" type="submit">Send message</button>
+
+            </form>
+            <section class="feedback__contacts contacts">
+                <h3 class="contacts__heading">Contact info</h3>
+                <address class="contacts__address">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</address>
+                <a class="contacts__mail" href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
+                <a class="contacts__phone" href="tel:(+88)01761746373">(+88)017 617 46373</a>
             </section>
         </div>
     </section>
