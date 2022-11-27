@@ -1118,7 +1118,6 @@
 
     .feedback__body::after {
         content: none;
-        grid-column: 0;
     }
 
     .feedback__contacts {
@@ -1177,7 +1176,7 @@
 
 .social__link:hover {
     transform: scale(1.1, 1.1);
-
+    transition: ease-in;
 }
 
 .footer__copyright {
