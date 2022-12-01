@@ -13,12 +13,13 @@ menuButton.addEventListener('click', showMenu);
 
 function closeMenu(evt) {
     let InsideMenu = menuWrapper.contains(evt.target);
-
+     console.log(InsideMenu)
     if (!InsideMenu) {
         menuList.classList.add('visuallyhidden');
     }
-
 }
+
+document.addEventListener('click', closeMenu)
 
 window.onscroll = () => {
     const header = document.querySelector('.header');
