@@ -23,11 +23,15 @@ document.addEventListener('click', closeMenu)
 
 window.onscroll = () => {
     const header = document.querySelector('.header');
-    const Y = window.scrollY
+    const Y = window.scrollY 
+    const activeMenu = document.querySelector('.site-menu__item');
 
     if (Y > 80) {
-        header.classList.add('header__fixed')
+        header.classList.add('header__fixed');
+        activeMenu.classList.remove('site-menu__item_active');
+       
     } else if (Y < 80) {
-        header.classList.remove('header__fixed')
+        header.classList.remove('header__fixed');
+        activeMenu.classList.add('site-menu__item_active')
     }
 };
