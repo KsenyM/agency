@@ -333,6 +333,7 @@
     word-break: break-all;
     hyphens: auto;
     -webkit-hyphens: auto;
+    -ms-hyphens: auto;
     overflow-wrap: break-word;
 }
 
@@ -341,7 +342,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 227px;
     min-height: 55px;
     border-radius: 5px;
     font-weight: 700;
@@ -350,6 +350,13 @@
     text-decoration: none;
     box-sizing: border-box;
     padding: 0.5em 1em;
+    min-width: 227px;
+    max-width: 539px;
+    width: fit-content;
+    word-break: break-all;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .btn-priority_red-full {
@@ -915,7 +922,6 @@
     max-width: 1249px;
     display: flex;
     width: 100%;
-    align-items: center;
     justify-content: center;
     gap: 22px;
 
@@ -941,12 +947,21 @@
     align-items: center;
     font-weight: 600;
     min-height: 80px;
+    height: fit-content;
+    width: fit-content;
+    min-width: 225px;
     border-radius: 5px;
     border: none;
     padding:12px 70px 12px 70px;
     background-color: rgb(255, 45, 45);
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    word-break: break-all;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
 
 }
 
@@ -1128,7 +1143,7 @@
 
 .feedback__button {
     width: 100%;
-    height: 72px;
+    min-height: 72px;
     border-radius: 5px;
     border: none;
     background-color: #FF2D2D;
@@ -1137,6 +1152,13 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 600;
+    word-break: break-all;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+
 }
 
 .feedback__button:hover {
